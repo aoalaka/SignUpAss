@@ -1,11 +1,10 @@
 
 body {
-	background-color: white;
+	background-color: #ffffe6;
 
 }
 
 header {
-	color: #003300;
 	height: 15px;
 	font-family: arial;
 	margin: 20px;
@@ -15,19 +14,23 @@ header {
 	font-size: 30px;
 	float: left;
 	font-style: bold;
+	text-shadow: 2px 2px #ffe6e6;
+	color: #990000;
 	
 }
 
 #right  {
 	float: right;
+	color: #990000;
 }
 
 nav {
 	position: relative;
-	margin: 20px;
+	margin: 20px 20px 10px 20px;
 	background-color: #009900;
-	height: 25px;
+	height: 10px;
 	font-size: 20px;
+	border-radius: 10px;
 }
 
 ul {
@@ -46,10 +49,11 @@ section {
 	float: right;
 	height: 300px;
 	width: 250px;
-	background-color: #f2f2f2;
+	background-color: #b3ffb3;
 	padding: 40px;
 	margin-right: 40px;
-	margin-top: 25px;
+	margin-top: 65px;
+	border-radius: 4px;
 
 }
 a:link {
@@ -77,6 +81,7 @@ input {
  	font-size: 15px;
  	color: #ffffe6;
  	border-style: outset;
+ 	border-radius: 6px;
  }
 
  input[type=submit]:hover {
@@ -87,7 +92,7 @@ input {
  	float: right;
  	margin-right: 100px;
  	font-size: 200%;
- 	color: #009900;
+ 	color: #990000;
  	text-align:justify;
 	text-justify:inter-word;
 	margin-top: 40px;
